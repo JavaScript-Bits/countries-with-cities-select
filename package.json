@@ -2,7 +2,7 @@
   "name": "countries-with-cities-select",
   "version": "1.0.0",
   "description": "All countries with cities select dropdown",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/JavaScript-Bits/countries-with-cities-select/issues"
   },
-  "homepage": "https://github.com/JavaScript-Bits/countries-with-cities-select#readme"
+  "homepage": "https://github.com/JavaScript-Bits/countries-with-cities-select#readme",
+  "dependencies": {
+    "papaparse": "^5.4.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "csv-parse": "^5.3.10",
+    "lodash": "^4.17.21"
+  }
 }
