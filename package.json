@@ -1,0 +1,28 @@
+{
+  "name": "countries-with-cities-select",
+  "version": "1.0.0",
+  "description": "All countries with cities select dropdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaScript-Bits/countries-with-cities-select.git"
+  },
+  "keywords": [
+    "city",
+    "countires",
+    "dropdown",
+    "select",
+    "serach",
+    "cities",
+    "towns"
+  ],
+  "author": "manuelgeek, Gloria_Jemutai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavaScript-Bits/countries-with-cities-select/issues"
+  },
+  "homepage": "https://github.com/JavaScript-Bits/countries-with-cities-select#readme"
+}
