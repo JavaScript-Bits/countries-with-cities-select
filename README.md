@@ -9,7 +9,7 @@ Retrieve all countries with cities
 + [Get cities](#get-cities) 
 
 ## Features
-+ Get names,codes and cities of all countries
++ Get names, codes and cities of all countries
 + Filter cities by country name, country code, continent name
 
 ## Installing
@@ -22,7 +22,7 @@ OR
 yarn add countries-with-cities-select
 
 ```
-Once the package is installed you use the require approach
+Once the package is installed you use the require/import approach
 
 ```javascript
 const countriesWithCities = require('countries-with-cities-select');
@@ -43,7 +43,7 @@ declare module 'countries-with-cities-select'
 ```
 
 ## #Get countries
-This will all countries.
+This will list all countries.
 ```javascript
 
 const countriesWithCities = require('countries-with-cities-select');
@@ -53,7 +53,7 @@ countriesWithCities.getCountries();
 ```
 
 ## #Get countries with details
-This will retrieve information about countries with code, continent etc.
+This will retrieve information about countries with code, continent etc. Filter by country name, country code or continent
 ```javascript
 
 const countriesWithCities = require('countries-with-cities-select');
@@ -69,7 +69,8 @@ countriesWithCities.getCountriesWithDetails("africa");
 ```
 
 ## #Get cities
-This will retrieve information about cities. Filter with country name, code or continent
+This will retrieve information about cities. Filter with country name, country code or continent
+Empty filter will return no cities
 
 ```javascript
 const countriesWithCities = require('countries-with-cities-select');
