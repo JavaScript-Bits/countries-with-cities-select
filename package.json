@@ -2,7 +2,7 @@
   "name": "countries-with-cities-select",
   "version": "1.0.0",
   "description": "All countries with cities select dropdown",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,7 @@
     "countires",
     "dropdown",
     "select",
-    "serach",
+    "search",
     "cities",
     "towns"
   ],
