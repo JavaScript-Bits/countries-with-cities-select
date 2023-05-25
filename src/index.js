@@ -83,4 +83,5 @@ module.exports = {
   getCountries,
   getCountriesWithDetails,
   getCities,
+  fetchCurrencies,
 }
