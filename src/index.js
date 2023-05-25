@@ -1,4 +1,5 @@
 const countriesData = require("./country-cities.json")
+const CurrencyExplorer = require('currency-explorer');
 
 function getCountries() {
   return Object.keys(countriesData)
@@ -54,6 +55,28 @@ function getCities(filter) {
         city.countryName.toLowerCase().includes(search) ||
         city.continentName.toLowerCase().includes(search)
     )
+}
+
+async function fetchCurrencies() {
+  const currencyExplorer = new CurrencyExplorer();
+  const countryCurrencies = {};
+
+  const countries = getCountries();
+
+  // Iterate over each country
+  for (const country of countries) {
+    try {
+      const currencyData = await currencyExplorer.getCurrencyByCountry(
+        country
+      );
+      countryCurrencies[country] = currencyData.currencies;
+    } catch (error) {
+      console.error(`Failed to fetch currency for ${country}:`, error);
+    }
+  }
+
+  // Return the object containing country currencies
+  return countryCurrencies;
 }
 
 module.exports = {
