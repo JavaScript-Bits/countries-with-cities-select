@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/JavaScript-Bits/countries-with-cities-select/issues"
   },
-  "homepage": "https://github.com/JavaScript-Bits/countries-with-cities-select#readme"
+  "homepage": "https://github.com/JavaScript-Bits/countries-with-cities-select#readme",
+  "dependencies": {
+    "currency-explorer": "^1.0.1"
+  }
 }
